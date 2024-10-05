@@ -1,0 +1,196 @@
+
+
+# class Car:
+#
+#     def __init__(self, model, year):
+#         self.model = model
+#         self.year = year
+#
+# mers = Car('bmw', 1999)
+# mers2 = Car('312', 1890)
+
+
+
+
+# class Dog:
+#
+#     def __init__(self, name, age, color):
+#         self.name = name
+#         self.age = age
+#         self.color = color
+#
+#     def voice(self):
+#         print(f'{self.name}: Gaf gaf gaf')
+#
+#     def sit_down(self):
+#         print(f'{self.name}: sitting')
+#
+#     def stand_up(self):
+# #         print(f'{self.name}: standing')
+#
+# sharik = Dog('sharik', 7, 'red')
+# sharik.voice()
+# sharik.sit_down()
+# sharik.stand_up()
+
+
+# bobik = Dog('Bobik', 3, 'red')
+# bobik.voice( )
+
+
+
+
+# class Dog:
+# #     name = None
+#     age = None
+#     color = None
+# #
+# sharik = Dog()
+# sharik.name = 'sharik'
+# sharik.age = 3
+# sharik.color = 'black'
+#
+# # print(sharik.name, sharik.age, sharik.color)
+# print(f'name of dog: {sharik.name.title()}, age: {sharik.age}, color: {sharik.color}')
+
+
+
+
+
+
+
+# from copyreg import constructor
+# from functools import reduce
+
+# class Dog:
+#     pass
+#
+# print(type(Dog))
+
+
+
+
+
+#
+# class Dog:
+#     name = None
+#     age = None
+#     color = None
+#
+#
+# sharik = Dog()
+#
+# sharik.name = 'Sharik'
+# sharik.age = 5
+# sharik.color = 'black'
+#
+# print(sharik.name, sharik.age, sharik.color)
+
+'''
+            __init =  constructor
+            '''
+#
+# class Dog:
+#
+#     def __init__(self):
+#         print('hello its Dog')
+#
+# sharik = Dog()
+
+
+#
+# class Dog:
+#
+#     def __init__(self, name, age, color):
+#         self.name = name
+#         self.age = age
+#         self.color = color
+#
+#     def voice(self):
+#         print(f'{self.name}: Gaf gaf gaf!')
+#
+#     def sit_down(self):
+#         print(f'{self.name}: sitting ')
+#
+#     def stand_up(self):
+#         print(f'{self.name}: stand')
+#
+#
+# sharik = Dog('Sharik', 6, 'red')
+# sharik.voice()
+# sharik.sit_down()
+# sharik.stand_up()
+#
+# bobik = Dog('Bobik', 10, 'White')
+# bobik.voice()
+# bobik.sit_down()
+# bobik.stand_up()
+
+
+#
+# class Cat:
+#     name = None
+#     age = None
+#     isHappy = None
+#
+#
+#     def set_data(self,name, age, isHappy):
+#         self.name = name
+#         self.age = age
+#         self.isHappy = isHappy
+#
+#     def get_data(self):
+#         print(self.name, 'age:', self.age, 'Happy:', self.isHappy)
+#
+#
+# cat1 = Cat()
+# cat1.set_data('barsik', 3, False)
+#
+# cat2 = Cat()
+# cat2.set_data('giorgi', 3, True)
+#
+#
+#
+# cat1.get_data()
+# cat2.get_data()
+
+
+
+#
+# class Cars:
+#     wheels = 0
+#     marka = ''
+#
+#     def __init__(self, wheels, marka):
+#         self.wheels = wheels
+#         self.marka = marka
+#
+# bmw = Cars(4,'HZ')
+# print(bmw.wheels)
+
+
+
+
+
+# class Cat:
+#     name = None
+#     age = None
+#     isHappy = None
+#
+#     def __init__(self, name = {}, age=None, isHappy=None):
+#         self.set_data(name,age,isHappy)
+#         self.get_data()
+#
+#     def set_data(self, name= None, age = None, isHappy = None):
+#         self.name = name
+#         self.age = age
+#         self.isHappy = isHappy
+#
+#     def  get_data(self):
+#         print(self.name, "age:", self.age, '. Happy:', self.isHappy)
+#
+# cat1 = Cat()
+# cat2 = Cat('Liya', 3, False)
+
+
+
