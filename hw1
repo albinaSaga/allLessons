@@ -1,0 +1,37 @@
+
+class Cow:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def voice(self):
+        print(f'{self.name}: My-y-y')
+
+mosya = Cow('Mosya', 3)
+mosya.voice()
+print(f'{mosya.name} age: {mosya.age}')
+
+
+class Bear:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def voice(self):
+        print(f'{self.name}: A-a-a')
+
+petr = Bear('Petr', 16)
+petr.voice()
+print(f'{petr.name} age: {petr.age}')
+
+
+
+class Cat:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def voice(self):
+        print(f'{self.name}: Miao-miao')
+
+cheshka = Cow('Cheshka', 5)
+cheshka.voice()
+print(f'{cheshka.name} age: {cheshka.age}')
+
